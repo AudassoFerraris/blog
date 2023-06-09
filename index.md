@@ -1,5 +1,6 @@
 ---
 title: "Home"
+layout: home
 ---
 
 Benvenuti nel Blog Audris dove condivideremo le nostre esperienze e le nostre conoscenze.
@@ -18,4 +19,4 @@ Se vuoi contribuire a questo blog puoi farlo in diversi modi:
 
 ## Come è stato creato questo blog
 
-Questo blog è stato creato con [Jekyll](https://jekyllrb.com/) e [GitHub Pages](https://pages.github.com/). Il tema utilizzato è [Minimal Mistakes](https://mmistakes.github.io/minimal-mistakes/).
+Questo blog è stato creato con [Jekyll](https://jekyllrb.com/) e [GitHub Pages](https://pages.github.com/). Il tema utilizzato è [minima](https://github.com/jekyll/minima).
