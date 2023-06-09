@@ -7,18 +7,17 @@ L'utilizzo di FAQ (frequently asked questions) è diffuso in vari ambiti per
 fornire un primo supporto agli utenti.  
 Con l'utilizzo del [servizio Azure Bot](https://azure.microsoft.com/products/bot-services/) è possibile trasformare l'esperienza utente in modo semplice e rendere queste informazioni facilmente accessibili in modo interattivo.
 
-Il servizio di chat può essere facilmente integrato in un sito web, su Microsoft Teams o in tanti altri canali. Puoi trovare maggiori informazioni sui canali supportati [qui](https://learn.microsoft.com/azure/bot-service/bot-service-manage-channels?view=azure-bot-service-4.0).
+Il servizio di chat può essere facilmente integrato in un sito web, su Microsoft Teams o in tanti altri canali. Puoi trovare maggiori informazioni sui canali supportati in [Configure a bot to run on one or more channels](https://learn.microsoft.com/azure/bot-service/bot-service-manage-channels?view=azure-bot-service-4.0).
 
 Di seguito viene fornita una breve introduzione all'argomento e una guida
 per la configurazione del servizio.
 
 ## Perchè trasformare la FAQ in un chatbot
 
-Ci sono molti motivi per preferire l'utilizzo di una chat interattiva rispetto ad una semplice FAQ testuale.  
+Molti sono i motivi per preferire l'utilizzo di una chat interattiva rispetto ad una semplice FAQ testuale.  
+Tuttavia, esistono anche dei motivi per non farlo, come ad esempio il costo (seppur non elevato), ma principalmente l'entità dei contenuti da trattare.
 
-Tuttavia, esistono anche dei motivi per non farlo, come ad esempio il costo (seppur non elevato), ma ritengo che il principale sia legato ai contenuti.  
-Se le informazioni che desideriamo fornire sono limitate
-e possono essere presentate all'utente tramite una piccola pagina web, allora non è necessario trasformare la stessa in una chat.
+Se le informazioni che desideriamo fornire sono limitate e possono essere presentate all'utente tramite una piccola pagina web, allora non è necessario trasformare la stessa in una chat.
 
 Supponiamo invece di considerare una base di conoscenza abbastanza ampia attraverso la chat. Quali sono i motivi che potrebbero spingerci a scegliere questo tipo di strumento?
 
@@ -26,7 +25,7 @@ Il motivo principale dovrebbe essere quello di semplificare l'esperienza utente.
 In questo senso, la chat mette a disposizione una *ricerca di tipo semantico*.
 Utilizzando le funzionalità di analisi del linguaggio naturale, si consente all'utente di trovare le risposte che cerca esprimendo le richieste nel proprio linguaggio.  
 
-Considerando una pagina di FAQ molto lunga: non tutti gli utenti conoscono le funzionalità di ricerca del browser e, anche se le conoscono, la ricerca si limita a trovare corrispondenze esatte nel testo. Pertanto, se non si conoscono i termini utilizzati nel documento, la ricerca diventa difficoltosa.
+Considerando una pagina di FAQ molto lunga, non tutti gli utenti conoscono le funzionalità di ricerca del browser e, anche se le conoscono, la ricerca si limita a trovare corrispondenze esatte nel testo. Pertanto, se non si conoscono i termini utilizzati nel documento, la ricerca diventa difficoltosa.
 
 Come potenziale conseguenza, migliorando la capacità dell'utente di trovare autonomamente le informazioni necessarie, si riducono le richieste all'help desk.
 
@@ -35,24 +34,24 @@ Un altro motivo potrebbe essere la raccolta di dati sui tipi di domande per migl
 ## Come creare il bot e testarlo
 
 La procedura dettagliata per creare un bot è descritta nel tutorial
-[Build a bot with the Language Service and Azure Bot Service - MS Learn](https://learn.microsoft.com/en-us/training/modules/build-faq-chatbot-qna-maker-azure-bot-service/). Inoltre si può seguire l'esercizio collegato ad esso collegato
+[Build a bot with the Language Service and Azure Bot Service - MS Learn](https://learn.microsoft.com/en-us/training/modules/build-faq-chatbot-qna-maker-azure-bot-service/). Inoltre si può seguire l'esercizio ad esso collegato
 [Explore question answering](https://microsoftlearning.github.io/AI-900-AIFundamentals/instructions/04d-create-a-bot.html).  
 
 Di seguito ci limiteremo quindi a vedere un elenco dei passi prinicipali (partendo dal presupposto di avere già una sottoscrizione Azure attiva) evidenziando anche alcuni aspetti da tenere in considerazione.
 
 1) Creare un nuovo servizio [Language](https://learn.microsoft.com/en-us/azure/cognitive-services/language-service/overview).
    Questo servizio costituisce la base per la gestione del riconoscimento del testo ed è il punto di partenza per implementare soluzioni che utilizzano questa tecnologia. Il servizio unisce diverse funzionalità,
-   ma per il nostro caso d'uso siamo ci interessa particolarmente la QnA (domande e risposte).
-2) Utilizzare [Language Studio](https://language.cognitive.azure.com/home) per creare un *progetto* ed addestrare il sistema: Language Studio permette di crerare un progetto e fornire l'elenco delle domande e risposte della nostra FAQ per addestrare il sistema.
-3) Testare il sistema utilizzando la funzionalità di Test integrata e , se necessario, integrare le domande con alternative per migliorare le capacità di riconoscimento del sistema.
-4) Dopo aver validato il funzionamento del sistema, eseguire il Deploy sul servizio Language Service collegato. Questo step consisnte nel creare nel creare un modello su Azure basato sulle coppie di domande e risposte fornite.
+   ma per il nostro caso d'uso ci interessa particolarmente la funzionalità di Q&A (domande e risposte).
+2) Utilizzare [Language Studio](https://language.cognitive.azure.com/home) per creare un *progetto* ed addestrare il sistema: Language Studio permette di creare un progetto e fornire l'elenco delle domande e risposte della nostra FAQ per addestrare il sistema.
+3) Testare il sistema utilizzando la funzionalità di Test integrata e, se necessario, integrare le domande con alternative per migliorare le capacità di riconoscimento del sistema.
+4) Dopo aver validato il funzionamento del sistema, eseguire il Deploy sul servizio Language Service collegato. Questo step consiste nel creare nel creare un modello su Azure basato sulle coppie di domande e risposte fornite.
 5) A questo punto, si può creare un [Azure Bot](https://learn.microsoft.com/en-us/azure/bot-service/?view=azure-bot-service-4.0).
    Per comodità, nella pagina di deploy di Language Studio è già disponibile un link
    ad un wizard, che utilizzando un template predefinito, permette di creare il bot e l'infrastruttura correlata.
 
-Una volta completati questi passaggi, avrai a disposizione un servizio Azure Bot da integrare nei tuoi sistemi di interesse, come ad esempio Microsoft Teams.
+Una volta completati questi passaggi, sarà disponibile un servizio Azure Bot da integrare nei tuoi sistemi di interesse, come ad esempio Microsoft Teams.
 
-Da tenere in considerazione nella creazione del bot i seguenti aspetti.
+Da tenere in considerazione nella creazione del bot i seguenti aspetti:
 
 - La sottoscrizione di Azure prevede la possibilità di creare un solo servizio Language Service gratuito. Se si desidera creare più di un bot, sarà necessario attivare un piano a pagamento.  
 - Il bot può essere creato in diverse lingue, ma è necessario scegliere una lingua principale. Questa scelta è importante in quanto determina la lingua utilizzata per la gestione della chat.
@@ -86,7 +85,7 @@ Language Studio mette a disposizione diverse funzionalità specifiche per il ser
 - Possibilità di inserire domande alternative. Questo è utile nel caso in cui una domanda venga formulata in modi diversi e il riconoscimento del linguaggio naturale non riesca a identificare una risposta già presente nella base di conoscenza.
 - Addestramento semplificato e deployment verso il servizio di Azure.
 
-![Language Studio - Edit Knowledge Base](/assets/images/Channels.png)
+![Language Studio - Edit Knowledge Base](/assets/images/LanguageStudio.png)
 
 ## Cosa fare dopo la creazione della chat
 
@@ -133,7 +132,7 @@ Per ogni sito vengono generate delle chiavi che consentono l'accesso alla chat. 
 
 Non è consigliato inserire il secret direttamente nel codice HTML, nonostante il template per il tag `<iframe>` lo suggerisca. Questo approccio esporrebbe le chiavi in chiaro a chiunque accede alla pagina HTML, permettendo a chiunque di utilizzare il bot nel proprio sito (una situazione che generalmente non è desiderabile).
 
-Per ovviare a questo problema, è possibile utilizzare un approccio che prevede l'utilizzo di un server per la gestione di chiavi *temporanee*. É infatti possibile ottnere un token provvisorio dall'endpoint `https://webchat.botframework.com/api/tokens`, utilizzando le chiavi di accesso al sito. Il token ottenuto può essere utilizzato nel tag iFrame in alternativa al secret, semplicemente sostituendo `?s=<secret>` con `?t=<token>`.
+Per ovviare a questo problema, è possibile utilizzare un approccio che prevede l'utilizzo di un server per la gestione di chiavi *temporanee*. É infatti possibile ottenere un token provvisorio dall'endpoint `https://webchat.botframework.com/api/tokens`, utilizzando le chiavi di accesso al sito. Il token ottenuto può essere utilizzato nel tag iFrame in alternativa al secret, semplicemente sostituendo `?s=<secret>` con `?t=<token>`.
 
 > IMPORTANTE: in questa soluzione, il token è comunque esposto pubblicamente, ma la sua durata limitata nel tempo e la possibilità di rigenerarlo periodicamente rendono questo approccio più sicuro rispetto all'utilizzo del secret. Per ulteriori dettagli, consulta la [documentazione ufficiale](https://learn.microsoft.com/azure/bot-service/bot-service-channel-connect-webchat?view=azure-bot-service-4.0).  
 
@@ -164,4 +163,4 @@ Da tenere in considerazione anche l'utilizzo diretto delle API e la disponibilit
 
 ## Contattaci
 
-Se sei interessato ad adottare la tecnologia presentata in questo articolo e desideri assistenza nell'implementazione, visita il nostro sito [audris.it](https://www.audris.it/) non esitare a contattarci.
+Se sei interessato ad adottare la tecnologia presentata in questo articolo e desideri assistenza nell'implementazione, visita il nostro sito [audris.it](https://www.audris.it/). Non esitare a contattarci.
