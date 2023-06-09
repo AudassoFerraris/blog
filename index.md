@@ -1,12 +1,8 @@
 ---
-title: "Benvenuti nel Blog Audris"
+title: "Home"
 ---
 
 Benvenuti nel Blog Audris dove condivideremo le nostre esperienze e le nostre conoscenze.
-
-## Chi siamo
-
-Siamo una piccola società che è nata dalla passione per la tecnologia e la voglia di imparare cose nuove. Offriamo servizi di consulenza e sviluppo software, per avere maggiori informazioni su di noi puoi visitate il nostro sito [Audris](https://www.audris.it).
 
 ## Cosa troverai in questo blog
 
@@ -23,14 +19,3 @@ Se vuoi contribuire a questo blog puoi farlo in diversi modi:
 ## Come è stato creato questo blog
 
 Questo blog è stato creato con [Jekyll](https://jekyllrb.com/) e [GitHub Pages](https://pages.github.com/). Il tema utilizzato è [Minimal Mistakes](https://mmistakes.github.io/minimal-mistakes/).
-
-## Licenza
-
-Il contenuto di questo blog è rilasciato con licenza [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/).
-
-Il codice sorgente di questo blog è rilasciato con licenza [MIT License](https://opensource.org/licenses/MIT).
-
-## Contatti
-
-Puoi contattarci tramite email all'indirizzo [info@audris.it](mailto:info@audris.it) o puoi visitare il nostro sito [Audris](https://www.audris.it).
-
