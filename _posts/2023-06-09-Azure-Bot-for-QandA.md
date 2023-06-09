@@ -1,6 +1,7 @@
 ---
 title: "Creare una chat interattiva tramite Azure Bot (e Teams) per la gestione di FAQ"
 date: 2023-06-09
+layout: post
 ---
 
 L'utilizzo di FAQ (frequently asked questions) è diffuso in vari ambiti per

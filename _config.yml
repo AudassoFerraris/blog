@@ -1,3 +1,7 @@
 theme: minima
 title: Audris Blog Site
 author: Audris snc di Audasso Margherita e Ferraris Roberto
+minima:
+  social_links:
+    - { platform: linkedin, user_url: "https://www.linkedin.com/company/audris-it/" }
+    - { platform: github,  user_url: "https://github.com/AudassoFerraris" }
