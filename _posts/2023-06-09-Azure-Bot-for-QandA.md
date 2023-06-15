@@ -40,13 +40,14 @@ La procedura dettagliata per creare un bot è descritta nel tutorial
 
 Di seguito ci limiteremo quindi a vedere un elenco dei passi prinicipali (partendo dal presupposto di avere già una sottoscrizione Azure attiva) evidenziando anche alcuni aspetti da tenere in considerazione.
 
-1) Creare un nuovo servizio [Language](https://learn.microsoft.com/en-us/azure/cognitive-services/language-service/overview).
+1. Creare un nuovo servizio [Language](https://learn.microsoft.com/en-us/azure/cognitive-services/language-service/overview).
    Questo servizio costituisce la base per la gestione del riconoscimento del testo ed è il punto di partenza per implementare soluzioni che utilizzano questa tecnologia. Il servizio unisce diverse funzionalità,
    ma per il nostro caso d'uso ci interessa particolarmente la funzionalità di Q&A (domande e risposte).
-2) Utilizzare [Language Studio](https://language.cognitive.azure.com/home) per creare un *progetto* ed addestrare il sistema: Language Studio permette di creare un progetto e fornire l'elenco delle domande e risposte della nostra FAQ per addestrare il sistema.
-3) Testare il sistema utilizzando la funzionalità di Test integrata e, se necessario, integrare le domande con alternative per migliorare le capacità di riconoscimento del sistema.
-4) Dopo aver validato il funzionamento del sistema, eseguire il Deploy sul servizio Language Service collegato. Questo step consiste nel creare nel creare un modello su Azure basato sulle coppie di domande e risposte fornite.
-5) A questo punto, si può creare un [Azure Bot](https://learn.microsoft.com/en-us/azure/bot-service/?view=azure-bot-service-4.0).
+2. Utilizzare [Language Studio](https://language.cognitive.azure.com/home) per creare un *progetto* ed addestrare il sistema: 
+   Language Studio permette di creare un progetto e fornire l'elenco delle domande e risposte della nostra FAQ per addestrare il sistema.
+3. Testare il sistema utilizzando la funzionalità di Test integrata e, se necessario, integrare le domande con alternative per migliorare le capacità di riconoscimento del sistema.
+4. Dopo aver validato il funzionamento del sistema, eseguire il Deploy sul servizio Language Service collegato. Questo step consiste nel creare nel creare un modello su Azure basato sulle coppie di domande e risposte fornite.
+5. A questo punto, si può creare un [Azure Bot](https://learn.microsoft.com/en-us/azure/bot-service/?view=azure-bot-service-4.0).
    Per comodità, nella pagina di deploy di Language Studio è già disponibile un link
    ad un wizard, che utilizzando un template predefinito, permette di creare il bot e l'infrastruttura correlata.
 
