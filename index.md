@@ -5,8 +5,6 @@ layout: home
 
 Benvenuti nel Blog Audris dove condivideremo le nostre esperienze e le nostre conoscenze.
 
-## Cosa troverai in questo blog
-
 In questo blog troverai articoli su argomenti che ci interessano e che ci piace condividere con gli altri. Gli argomenti saranno principalmente tecnici, ma non mancheranno articoli su argomenti più generici.
 
 ## Come contribuire
