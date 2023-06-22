@@ -38,7 +38,7 @@ La procedura dettagliata per creare un bot è descritta nel tutorial
 [Build a bot with the Language Service and Azure Bot Service - MS Learn](https://learn.microsoft.com/en-us/training/modules/build-faq-chatbot-qna-maker-azure-bot-service/). Inoltre si può seguire l'esercizio ad esso collegato
 [Explore question answering](https://microsoftlearning.github.io/AI-900-AIFundamentals/instructions/04d-create-a-bot.html).  
 
-Di seguito ci limiteremo quindi a vedere un elenco dei passi prinicipali (partendo dal presupposto di avere già una sottoscrizione Azure attiva) evidenziando anche alcuni aspetti da tenere in considerazione.
+Di seguito ci limiteremo quindi a vedere un elenco dei passi principali (partendo dal presupposto di avere già una sottoscrizione Azure attiva) evidenziando anche alcuni aspetti da tenere in considerazione.
 
 1. Creare un nuovo servizio [Language](https://learn.microsoft.com/en-us/azure/cognitive-services/language-service/overview).
    Questo servizio costituisce la base per la gestione del riconoscimento del testo ed è il punto di partenza per implementare soluzioni che utilizzano questa tecnologia. Il servizio unisce diverse funzionalità,
