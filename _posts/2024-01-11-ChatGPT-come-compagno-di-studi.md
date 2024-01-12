@@ -85,7 +85,3 @@ Potete partire dall'esempio che ho fornito per provare a creare una sessione di 
 
 "Come [ruolo] mi sto preparando per la [descrizione esame|certificazione].
 Vorrei fare con il tuo aiuto una valutazione in cui tu mi proponi una domanda, io inserisco una risposta e tu mi indichi se la risposta è coerente e corretta. Dopo di che ti chiederò di fare altre domande con la richiesta 'Altra domanda'. Alla fine, ti chiederò 'Dammi una valutazione' e mi potrai riassumere la situazione delle competenze."
-
-
-## Note sull'autore e ringraziamenti
-
