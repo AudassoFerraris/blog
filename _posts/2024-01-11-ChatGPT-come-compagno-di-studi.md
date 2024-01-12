@@ -21,9 +21,9 @@ Proprio in questi giorni mi sto preparando per una certificazione (relativa alla
 
 Dopo un po' di prove sono riuscito a generare una richiesta (prompt) che ha fatto in modo che la piattaforma mi facesse un elenco di domande sull'argomento e mi verificasse le risposte, oltre a fornire una valutazione finale.
 
-Questa la richiesta di partenza:
-"Come sviluppatore software mi sto preparando per la certificazione Microsoft AZ-900 Azure Fundamentals.
-Vorrei fare con il tuo aiuto una valutazione in cui tu mi proponi una domanda, io inserisco una risposta e tu mi indichi se la risposta è coerente e corretta. Dopo di che, ti chiederò di fare altre domande con la richiesta 'Altra domanda'. Alla fine,  ti chiederò 'Dammi una valutazione' e mi potrai riassumere la situazione delle competenze."
+Questa la richiesta di partenza:  
+_"Come sviluppatore software mi sto preparando per la certificazione Microsoft AZ-900 Azure Fundamentals.
+Vorrei fare con il tuo aiuto una valutazione in cui tu mi proponi una domanda, io inserisco una risposta e tu mi indichi se la risposta è coerente e corretta. Dopo di che, ti chiederò di fare altre domande con la richiesta 'Altra domanda'. Alla fine,  ti chiederò 'Dammi una valutazione' e mi potrai riassumere la situazione delle competenze."_
 
 Per quanto riguarda il risultato è stata una sessione che ha spaziato su vari concetti dell'argomento coperto dalla certificazione e mi ha permesso di fare approfondimenti specifici. Di seguito un piccolo esempio.
 
